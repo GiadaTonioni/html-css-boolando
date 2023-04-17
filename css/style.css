@@ -32,8 +32,20 @@ main {
 }
 
 footer {
-    background-color: black;
-    height: 50px;
+    background-color: rgb(36, 36, 36);
+    height: 70px;
+}
+
+.container-header {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .row {
@@ -42,37 +54,16 @@ footer {
     flex-wrap: wrap;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
+.col-33 {
+    width: calc(100%/3 - 20px);
+    margin:30px 10px;
 }
 
 .col-100 {
-    width: 100%;
-    margin:0 10px;
-    height: 20px;
-    color: aqua;
-    display: flex;
-}
-
-.txt-bianco {
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.col-33 {
-    background-color: aquamarine;
-    height: 400px;
     width: calc(100%/3 - 20px);
-    margin:75px 10px;
-}
-
-.content {
-    background-color: aquamarine;
+    display: flex;
     height: 25px;
+    background-color: green;
     margin: 10px;
 }
 
@@ -142,6 +133,12 @@ img {
     font-size: 0.8em;
 }
 
+.txt-white {
+    font-size: 0.8em;
+    color: white;
+    font-weight: 600;
+}
+
 .txt-red {
     color: red;
     font-size: 0.8em;
@@ -154,4 +151,13 @@ img {
 
 .descrizione {
     line-height: 0.8em;
+}
+
+.logo-center {
+    width: 30%;
+    margin: 100px;
+}
+
+.end {
+    margin-left: 280px;
 }
