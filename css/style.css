@@ -111,8 +111,24 @@ img {
     background-color: red;
     color: white;
     font-size: 0.8em;
+    font-weight: 600;
     padding: 5px 15px;
     position: absolute;
     left: 0;
     bottom: 50px;
+}
+
+.label-green {
+    background-color: green;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+}
+
+.last {
+    left: 0;
 }
