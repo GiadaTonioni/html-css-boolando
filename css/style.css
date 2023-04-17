@@ -36,7 +36,7 @@ footer {
     height: 70px;
 }
 
-.container-header {
+.container-header, .container-footer {
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -46,6 +46,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.content-footer {
+    margin-top: 8px;
 }
 
 .row {
@@ -63,7 +67,6 @@ footer {
     width: calc(100%/3 - 20px);
     display: flex;
     height: 25px;
-    background-color: green;
     margin: 10px;
 }
 
@@ -139,6 +142,17 @@ img {
     font-weight: 600;
 }
 
+.thin {
+    font-weight: 400;
+    font-size: 0.6em;
+    margin-top: 8px;
+}
+
+.foot {
+    margin-left: 180px;
+    font-size: 0.7em;
+}
+
 .txt-red {
     color: red;
     font-size: 0.8em;
@@ -160,4 +174,5 @@ img {
 
 .end {
     margin-left: 280px;
+    text-align:right;
 }
