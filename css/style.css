@@ -67,19 +67,13 @@ footer {
     background-color: aquamarine;
     height: 400px;
     width: calc(100%/3 - 20px);
-    margin:40px 10px;
+    margin:75px 10px;
 }
 
 .content {
     background-color: aquamarine;
     height: 25px;
     margin: 10px;
-    justify-content: space-between;
-    display: flex;
-}
-
-span {
-    display: flex;
 }
 
 /* cards e over */
@@ -107,6 +101,7 @@ img {
     display: none;
 }
 
+/* inizio labels */
 .label-red {
     background-color: red;
     color: white;
@@ -115,7 +110,7 @@ img {
     padding: 5px 15px;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 80px;
 }
 
 .label-green {
@@ -125,7 +120,7 @@ img {
     font-weight: 600;
     padding: 5px 15px;
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     left: 65px;
 }
 
@@ -140,4 +135,23 @@ img {
     position: absolute;
     right: 0;
     top: 10px;
+}
+/* fine labels */
+/* inizio scritte*/
+.txt-black {
+    font-size: 0.8em;
+}
+
+.txt-red {
+    color: red;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.canc {
+    text-decoration-line: line-through;
+}
+
+.descrizione {
+    line-height: 0.8em;
 }
