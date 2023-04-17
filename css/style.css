@@ -132,3 +132,12 @@ img {
 .last {
     left: 0;
 }
+
+.label-heart {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
