@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
 }
 
 header {
@@ -40,18 +41,67 @@ footer {
     flex-wrap: wrap;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .col-100 {
-    width: calc(100% - 20px);
+    width: 100%;
     margin:0 10px;
+    height: 20px;
+    color: aqua;
+    display: flex;
+}
+
+.txt-bianco {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .col-33 {
     background-color: aquamarine;
     height: 400px;
     width: calc(100%/3 - 20px);
-    margin:30px 10px;
+    margin:40px 10px;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 25px;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+span {
+    display: flex;
+}
+
+.content-card {
+    position: relative;
+}
+
+.content-card:hover .img-back {
+    display: block;
+}
+
+.content-card:hover .img-front {
+    display: none;
 }
 
 img {
     width: 100%;
 }
+
+.img-front {
+    display: block;
+}
+
+.img-back {
+    display: none;
+}
+
