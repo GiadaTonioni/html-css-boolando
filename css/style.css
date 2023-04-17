@@ -33,7 +33,7 @@ main {
 
 footer {
     background-color: rgb(36, 36, 36);
-    height: 70px;
+    height: 80px;
 }
 
 .container-header, .container-footer {
@@ -149,8 +149,14 @@ img {
 }
 
 .foot {
-    margin-left: 180px;
-    font-size: 0.7em;
+    margin-left: 185px;
+    font-size: 0.65em;
+}
+
+.icons {
+    margin-left: 190px;
+    color: white;
+    margin-top: 10px;
 }
 
 .txt-red {
@@ -173,6 +179,6 @@ img {
 }
 
 .end {
-    margin-left: 280px;
+    margin-left: 270px;
     text-align:right;
 }
