@@ -8,17 +8,50 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     background-color: orangered;
-    margin-bottom: 80px;
     color: white;
     position: fixed;
     height: 50px;
     top: 0;
     left: 0;
     right: 0;
+    display: flex;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
 }
 
 .row {
-    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    width: calc(100% - 20px);
+    margin:0 10px;
+}
+
+.col-33 {
+    background-color: aquamarine;
+    height: 400px;
+    width: calc(100%/3 - 20px);
+    margin:30px 10px;
+}
+
+img {
+    width: 100%;
 }
